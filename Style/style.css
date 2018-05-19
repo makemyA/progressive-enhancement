@@ -7,8 +7,9 @@ body {
 	font-family: Quicksand;
 	text-align: center;
 	width: 90%;
-	margin-left: 5%
+	margin-left: 5%;
 	margin-right: 5%;
+	font-size: 21px;
 
 }
 header {
@@ -16,6 +17,7 @@ header {
 	color: #ffffff;
 	width: 100%;
 	padding: 10px;
+	text-align: center;
 }
 .bien {
 	font-weight: bold;
@@ -23,38 +25,69 @@ header {
 }
 ul {
 	text-align: center;
-	margin-left: 400px;
+	padding: 50px;
+	padding-left: 140px;
 }
 li {
 	list-style: square;
-	text-align: left;
 	padding-left: 10px;
 	padding-bottom: 20px;
+	text-align: left;
 }
 h1 {
 	font-size: 50px;
+	text-align: center;
 }
 h2 {
 	color: #0379B7;
-	font-size: 30px;	
+	font-size: 40px;
+	margin-top: 60px;
+	text-align: center;
 }
 h3 {
+	text-align: center;
 	font-style: italic;
 	font-size: 15px;
 }
-p {
+.intro {
+	text-align: left;
+	margin-left: 15%;
+	margin-right: 15%;
+	line-height: 200%;
+	
+
+
+
 
 }
 blockquote {
-	border-left: solid #0379B7;
+	border-left: solid #0379B7 3px;
+	margin: 0px;
+	padding: 10px;
+	overflow: hidden;
+	font-style: italic;
+	
+	
 }
 
 q {
-	border-left: solid #E6951F;
+	border-left: solid #E6951F 3px;
+	padding: 10px;
+	font-style: italic;
+
+	
+
+}
+.paragraphe {
+	padding: 0px;
+}
+.images {
+	text-align: center;
 }
 img {
-	width: 50%;
-	height: 50%;
+	
+	width: 80%;
+	height: 80%;
 }
 footer {
 	font-variant: small-caps;
@@ -84,9 +117,20 @@ footer {
 }
 .story {
 	text-align: left;
+	margin-left: 15%;
+	margin-right: 15%;
+	line-height: 200%;
+
+
+ 
 }
 #conclusion {
 	font-size: 20px;
+	line-height: 200%;
+}
+.bigletter {
+	font-size: 60px;
+	margin-right: 5px;
 }
 /*
 #5D6476
