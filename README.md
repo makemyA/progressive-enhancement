@@ -1,5 +1,5 @@
 
-* Sprint
+# Sprint
 
 
 Liens vers le résultat des exercices du **Sprint:**
