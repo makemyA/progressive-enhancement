@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 
+*Sprint
+Liens vers le résultat des exercices du **Sprint:**
 
-[Résultat de l'exercice](https://makemyA.github.io/progressive-enhancement)
-=======
-[Résultat de l'exercice](https://makemya.github.io/progressive-enhancement)
->>>>>>> DEV
+[Le paysan chinois](https://makemya.github.io/progressive-enhancement/)
