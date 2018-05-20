@@ -9,15 +9,32 @@ body {
 	width: 90%;
 	margin-left: 5%;
 	margin-right: 5%;
-	font-size: 21px;
+	font-size: 20px;
+	
+	position: relative;
+	z-index: 100;
+
+
+
+
+
+
+
 
 }
 header {
-	background: -webkit-linear-gradient(-119deg, rgb(66, 104, 137), rgb(20, 55, 90));
-	color: #ffffff;
-	width: 100%;
-	padding: 10px;
+	/*background: -webkit-linear-gradient(-119deg, rgb(66, 104, 137), rgb(20, 55, 90));*/
+	color: black;
+	width: 60%;
+	margin-left: 20%;
+	padding: 20px;
 	text-align: center;
+	margin-bottom:40px;
+	background-image: url("../pictures/yingyang2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	
+	background-size: cover;
 }
 .bien {
 	font-weight: bold;
@@ -30,16 +47,22 @@ ul {
 }
 li {
 	list-style: square;
+	color: #9d1303;
 	padding-left: 10px;
-	padding-bottom: 20px;
+	padding-bottom: 15px;
 	text-align: left;
+}
+li span {
+color: black;
 }
 h1 {
 	font-size: 50px;
 	text-align: center;
+	color: black;
 }
 h2 {
-	color: #0379B7;
+	/*color: #eb8a25;*/
+	color: black;
 	font-size: 40px;
 	margin-top: 60px;
 	text-align: center;
@@ -47,33 +70,37 @@ h2 {
 h3 {
 	text-align: center;
 	font-style: italic;
-	font-size: 15px;
+	font-size: 20px;
 }
 .intro {
 	text-align: left;
 	margin-left: 15%;
 	margin-right: 15%;
-	line-height: 200%;
-	
-
-
-
+	line-height: 160%;
+}
+.legendes {
+padding-top: 10px;
+font-style: italic;
+text-align: center;
+font-size: 15px;
 
 }
-blockquote {
-	border-left: solid #0379B7 3px;
+
+.citations {
+	
 	margin: 0px;
 	padding: 10px;
 	overflow: hidden;
 	font-style: italic;
-	
-	
 }
 
-q {
-	border-left: solid #E6951F 3px;
-	padding: 10px;
-	font-style: italic;
+.citations.villageois {
+border-left: solid #9d1303 3px;
+}
+
+.citations.fermier {
+border-left: solid #ffc04c 3px;
+}
 
 	
 
@@ -92,34 +119,55 @@ img {
 footer {
 	font-variant: small-caps;
 	font-weight: bold;
-	font-size: 70%
+	font-size: 70%;
+	font-family: arial;
 }
 .auteur {
 	text-align: center;
 }
 .tab {
-	border: solid;
+
 	text-align: center;
 	padding: 10px;
-	margin-left: 37%;
+	margin-left: 35%;
+	
 }
 .col1 {
-	border-right: solid;
+	border: 5px solid;
 	padding: 10px;
-	margin-bottom: 10px,
+	margin-bottom: 10px;
+    margin-right: 5px;
 	font-size: 25px;
+	background-color: #9d1303;
+	color: #ffffff;
 }
 .col2 {
-
+	border: 5px solid;
 	padding: 10px;
-	margin-bottom: 10px,
+	margin-bottom: 10px;
+	margin-left: 5px;
 	font-size: 25px;
+	background-color: #ffc04c;
+	color: #ffffff;
+}
+
+
+.cell.left {
+margin-right: 10px;
+border: 1px solid #9d1303;
+padding: 5px;
+}
+.cell.right {
+
+margin-left: 10px;
+border: 1px solid #ffc04c;
+padding: 5px;
 }
 .story {
 	text-align: left;
 	margin-left: 15%;
 	margin-right: 15%;
-	line-height: 200%;
+	line-height: 160%;
 
 
  
@@ -131,6 +179,33 @@ footer {
 .bigletter {
 	font-size: 60px;
 	margin-right: 5px;
+	color: #9d1303;
+}
+.sectiontab {
+	text-align: center;
+}
+footer a .title {
+	background-color: black;
+	color: #ffffff;
+}
+.info {
+	position: relative;
+	color: black;
+	text-decoration: none;
+	border-bottom: 1px #9d1303 dotted;
+}
+.info span{
+display: none;
+
+}
+.info:hover span {
+	display: inline;
+	position: absolute;
+	background-color: white;
+    color: #9d1303;
+    border: 1px solid;
+    bottom: 20px;
+    left: 50px;
 }
 /*
 #5D6476
