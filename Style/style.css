@@ -131,7 +131,7 @@ border-left: solid #ffc04c 3px;
 .images.float {
 	display: flex;
 	width: 100%;
-
+    margin-right: 15px;
 	vertical-align: top;
 	overflow: hidden;
 
@@ -262,7 +262,7 @@ background-repeat: no-repeat;
 background-attachment: scroll;
 background-position: 100% 50%;
 position: relative;
-right: -15px;
+
 }
 .imagechat {
 background-image: url("chat.png");
@@ -270,7 +270,7 @@ background-repeat: no-repeat;
 background-attachment: scroll;
 background-position: 100% 50%;
 position: relative;
-right: -15px;
+
 }
 #paragraphe1 {
 font-weight: bold;
