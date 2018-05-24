@@ -2,6 +2,8 @@
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+          margin: 0px;
+          padding:0px;
 }
 body {:;}
 header {
@@ -11,23 +13,54 @@ header {
 	background-color:  #323232;
 	color: white;
 	text-align: left;
+	font-family: arial;
 }
 
 /* Block */
 .menu-header {
 grid-column: 2 / 3;
+width: 60%;
+
 }
+.fa-user {
+	margin: 15px 3px 15px 0;
+	padding: 0px;
+	grid-column: 3 / 4;
+	font-size: 15px;
+	text-align: left;
+	color: white;
+	
+}
+
 
 
 /* Element */
 .menu-header__row {
+	height: 50px;
+	padding: 0px;
 	list-style: none;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-direction: row;
 
 }
-.menu-header__list
-.menu-header__link
+.menu-header__list {
+	margin: 15px 0px 15px 0px;
+	height: 50px;
+
+}
+.menu-header__link {
+	margin: 15px 0px 15px 0px;
+	font-size: 15px;
+	text-decoration: none;
+	color: white;
+}
+.login-header__text {
+	margin: 15px 0px 15px 0px;
+	padding: 0px;
+	color: white;
+	font-size: 15px;
+	text-align: left;
+}
 
 /* Modifier */
