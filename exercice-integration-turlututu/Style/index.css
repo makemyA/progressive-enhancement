@@ -6,61 +6,251 @@
           padding:0px;
 }
 body {:;}
-header {
+
+/*HEADER */
+.header {
 	display: grid;
 	grid-template-columns: 270px auto 270px;
 	grid-template-rows: 50px;
-	background-color:  #323232;
+	background-color: #323232;
 	color: white;
 	text-align: left;
 	font-family: arial;
 }
 
-/* Block */
-.menu-header {
-grid-column: 2 / 3;
-width: 60%;
+/*HEADER_logo*/
+.header-logo {
+	display:flex;
+	grid-column: 1/2;
+	align-items: center;
+	justify-content: flex-end;
+}
+.header-logo__picture {
 
 }
-.fa-user {
-	margin: 15px 3px 15px 0;
-	padding: 0px;
-	grid-column: 3 / 4;
-	font-size: 15px;
-	text-align: left;
+
+/*HEADER_menu*/
+
+.header-menu {
+	display:flex;
+    grid-column: 2 / 3;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header-menu__list {
+	display: flex;
+	width: 50%;
+	list-style: none;
+	justify-content: space-around;
+
+}
+.header-menu__item {
+
+}
+	
+.header-menu__link {
+	font-size: 14px;
+	text-decoration: none;
 	color: white;
+}
+/*HEADER Log In*/
+
+.header-login {
+	display: flex;
+	grid-column: 3 / 4;
+	justify-content: flex-start;
+	align-items: center;
+}
+.fa-user { /*! Ne pas modifier le nom, lien vers la database de fontawesome*/
+	font-size: 14px;
+	color: white;
+	margin-right: 5px;
+}
+.header-login__text {
+	color: white;
+	font-size: 14px;
+	text-align: left;
+}
+/*main
+section_Banner-a
+*/
+.banner {
+	background-color: #1D93CC;
+	color: white;
+	text-align: center;
+	height: auto;
+}
+.banner-a {
+	display: grid;
+	width: 80%;
+	height: 341px;
+	margin: 0 auto 0 auto;
+	grid-template-columns: 1fr 3fr;
+	grid-template-rows: 1fr;
+
+	
 	
 }
+.banner-a__left {
+	display: flex;
+	grid-column: 1 / 2; 
+	justify-content: start;
+	align-items: center;
+}
+
+}
+.banner-a__right {
+	
+height: 341px;
+	
+	
+
+}
+
+.banner-a__list-a {
+	
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	width: 80%;
+	margin: auto;
+	height: 300px; /*changer taille pour aplatir ou elargir l'écart ds la liste */
+	align-items: flex-start;
+	justify-content: space-around;
+	
+	
+	
+
+
+
+
+}
+.list__item {
+	
+	text-align: center;
+	
+
+}
+.list__item-logo {
+	
+
+
+}
+.list__item-logo--sizing {
+
+}
+ul .list__item-title {
+	font-size: 35px;
+
+}
+ul .list__item-button--yellow {
+	font-size: 35px;
+
+}
+
+.intersection-title {
+	font-size: 30px;
+	text-align: center;
+	margin: 20px 0 20px 0;
+}
+/*section_Banner-b*/
+.banner-b {
+	display: grid;
+	width: 80%;
+	height: 390px;
+	color: white;
+	margin: 0 auto 0 auto;
+	padding: 0 0 20px 0;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+.fa-chevron-right, h3 {
+	margin: 40px 5px 20px 0;
+	padding: 0px;
+	font-size: 30px;
+	font-weight: 500;
+}
+.para {
+	text-align: left;
+	padding:0px;
+	margin:0px;
+}
+.para--resizing {
+padding-bottom: 5px;
+}
+.banner-b__para1 {
+	display:flex;
+	grid-column: 1 / 2;
+	grid-row: 1 / 2;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+
+}
+
+
+.banner-b__para2 {
+	display:flex;
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 60px;
+}
+
+.banner-b__para3 {
+	display:flex;
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+.banner-b__para4 {
+	display:flex;
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+	flex-wrap: wrap;
+
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 60px;
+
+
+}
+.h3--resizing {
+	margin-bottom: 40px;
+	margin-top: 60px;
+}
+.banner-c {
+	height: 319px;
+	background-color: #EDEDED;
+
+}
+
+/* Block */
+
+
+
+
+
+
+
+
+
+
 
 
 
 /* Element */
-.menu-header__row {
-	height: 50px;
-	padding: 0px;
-	list-style: none;
-	display: flex;
-	justify-content: space-around;
-	flex-direction: row;
-
-}
-.menu-header__list {
-	margin: 15px 0px 15px 0px;
-	height: 50px;
-
-}
-.menu-header__link {
-	margin: 15px 0px 15px 0px;
-	font-size: 15px;
-	text-decoration: none;
-	color: white;
-}
-.login-header__text {
-	margin: 15px 0px 15px 0px;
-	padding: 0px;
-	color: white;
-	font-size: 15px;
-	text-align: left;
-}
 
 /* Modifier */
+
+
+/* #1D93CC couleur bleu ciel
+   #E88F02 jaune button
+   #155781  bleu button
+  #EDEDED  gris banner */
