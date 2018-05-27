@@ -1,0 +1,344 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          margin: 0px;
+          padding:0px;
+}
+body {
+	font-family: arial;
+}
+
+/*HEADER */
+.header {
+	display: grid;
+	grid-template-columns: 270px auto 270px;
+	grid-template-rows: 50px;
+	background-color: #323232;
+	color: white;
+	text-align: left;
+	font-family: arial;
+}
+
+/*HEADER_logo*/
+.header-logo {
+	display:flex;
+	grid-column: 1/2;
+	align-items: center;
+	justify-content: flex-end;
+}
+.header-logo__picture {
+
+}
+
+/*HEADER_menu*/
+
+.header-menu {
+	display:flex;
+    grid-column: 2 / 3;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header-menu__list {
+	display: flex;
+	width: 50%;
+	list-style: none;
+	justify-content: space-around;
+
+}
+.header-menu__item {
+
+}
+	
+.header-menu__link {
+	font-size: 14px;
+	text-decoration: none;
+	color: white;
+}
+/*HEADER Log In*/
+
+.header-login {
+	display: flex;
+	grid-column: 3 / 4;
+	justify-content: flex-start;
+	align-items: center;
+}
+.fa-user { /*! Ne pas modifier le nom, lien vers la database de fontawesome*/
+	font-size: 14px;
+	color: white;
+	margin-right: 5px;
+}
+.header-login__text {
+	color: white;
+	font-size: 14px;
+	text-align: left;
+}
+/*main
+section_Banner-a
+*/
+.banner {
+	background-color: #1D93CC;
+	color: white;
+	text-align: center;
+	height: auto;
+}
+.banner-a {
+	display: grid;
+	width: 80%;
+	height: 341px;
+	margin: 0 auto 0 auto;
+	grid-template-columns: 1fr 3fr;
+	grid-template-rows: 1fr;
+
+	
+	
+}
+.banner-a__left {
+	display: flex;
+	grid-column: 1 / 2; 
+	justify-content: start;
+	align-items: center;
+}
+
+}
+.banner-a__right {
+	
+height: 341px;
+	
+	
+
+}
+
+.banner-a__list-a {
+	
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	width: 80%;
+	margin: auto;
+	height: 300px; /*changer taille pour aplatir ou elargir l'écart ds la liste */
+	align-items: flex-start;
+	justify-content: space-around;
+	
+	
+	
+
+
+
+
+}
+.list__item {
+	
+	text-align: center;
+	
+
+}
+.list__item-logo {
+	
+
+
+}
+.list__item-logo--sizing {
+
+}
+ul .list__item-title {
+	font-size: 35px;
+
+}
+ul .list__item-button--yellow {
+	font-size: 35px;
+
+}
+
+.intersection-title {
+	font-size: 30px;
+	text-align: center;
+	margin: 20px 0 20px 0;
+}
+/*section_Banner-b*/
+.banner-b {
+	display: grid;
+	width: 80%;
+	height: 390px;
+	color: white;
+	margin: 0 auto 0 auto;
+	padding: 0 0 20px 0;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+.fa-chevron-right, h3 {
+	margin: 40px 5px 20px 0;
+	padding: 0px;
+	font-size: 30px;
+	font-weight: 500;
+}
+.para {
+	text-align: left;
+	padding:0px;
+	margin:0px;
+}
+.para--resizing {
+padding-bottom: 5px;
+}
+.banner-b__para1 {
+	display:flex;
+	grid-column: 1 / 2;
+	grid-row: 1 / 2;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+
+}
+
+
+.banner-b__para2 {
+	display:flex;
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 60px;
+}
+
+.banner-b__para3 {
+	display:flex;
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+.banner-b__para4 {
+	display:flex;
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+	flex-wrap: wrap;
+
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 60px;
+
+
+}
+.h3--resizing {
+	margin-bottom: 40px;
+	margin-top: 60px;
+}
+.banner-c {
+
+	height: 317px;
+	background-color: #EDEDED;
+	text-align: center;
+	margin: 0 0 0 0;
+	padding: 40px 0 30px 0;
+
+}
+.banner-c_images-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	margin: 0px auto 30px auto;
+	flex-wrap: nowrap;
+	flex:;
+}
+.container-flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 15px auto 30px auto;
+
+}
+#logo-rond {
+background-color:#DA5731;
+color: white;
+font-size: 30px;
+font-weight: 700;
+border-radius: 50%;
+width: 40px;
+padding: 3px 3px 3px 6px;
+margin-right: 7px;
+font-family: arial;
+text-align: center;
+
+}
+#logo-text {
+	color:#DA5731;
+	font-weight: 600;
+	font-size: 25px;
+}
+.footer {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+	flex-wrap: nowrap;
+
+}
+.box-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+.button {
+	display: flex;
+	width: 215px;
+	color: white;
+	margin:5px;
+	font-size: 22px;
+	font-weight: 500;
+	padding: 15px 20px 15px 20px;
+	border-radius: 10px;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.button--blue {
+	background-color: #165882;
+
+}
+.button--yellow {
+	background-color: #E99002;
+
+}
+
+.fa-angle-double-right {
+	font-size: 11px;
+	margin-left: 5px;
+}
+
+
+
+}
+
+
+
+
+/* Block */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Element */
+
+/* Modifier */
+
+
+/* #1D93CC couleur bleu ciel
+   #E88F02 jaune button
+   #155781  bleu button
+  #EDEDED  gris banner */
